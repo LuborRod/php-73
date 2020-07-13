@@ -72,7 +72,7 @@ TODO);
         $this->assertEquals("Privetstvuu vas d\'Artgnan",addslashes("Privetstvuu vas d'Artgnan"));
 
         // strcmp — Binary safe string comparison
-        $this->assertEquals('5', strcmp('first','airst'));
+        $this->assertEquals('1', strcmp('first','airst'));
 
         // strncasecmp — Binary safe case-insensitive string comparison of the first n characters
         $this->assertEquals('0', strcasecmp('First','first'));
